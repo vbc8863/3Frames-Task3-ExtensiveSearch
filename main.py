@@ -46,7 +46,7 @@ if __name__ == "__main__":
         print("Product:", result)
 
     # Searching for particular product using name and description
-    search_results = manager.search_products("MacBook Pro")
+    search_results = manager.search_products("Exynos")
     print("Search Results:")
     for path, result in search_results:
         print("Category:", path)
