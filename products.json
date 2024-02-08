@@ -1,0 +1,66 @@
+{
+  "name": "Root",
+  "subcategories": {
+    "Electronics": {
+      "Smartphones": [
+        {
+          "product_id": 1,
+          "name": "iPhone 13",
+          "description": "Apple iPhone 13 with A15 Bionic chip",
+          "details": "6.1-inch display, 128GB storage"
+        },
+        {
+          "product_id": 2,
+          "name": "Samsung Galaxy S21",
+          "description": "Samsung Galaxy S21 with Exynos 2100",
+          "details": "6.2-inch display, 256GB storage"
+        }
+      ],
+      "Laptops": [
+        {
+          "product_id": 3,
+          "name": "MacBook Pro",
+          "description": "Apple MacBook Pro with M1 Pro chip",
+          "details": "13.3-inch display, 16GB RAM, 512GB SSD"
+        },
+        {
+          "product_id": 4,
+          "name": "Dell XPS 15",
+          "description": "Dell XPS 15 with Intel Core i7",
+          "details": "15.6-inch display, 16GB RAM, 1TB SSD"
+        }
+      ]
+    },
+    "Clothing": {
+      "Men's Clothing": [
+        {
+          "product_id": 5,
+          "name": "Men's T-shirt",
+          "description": "Comfortable cotton t-shirt for men",
+          "details": "Size: Large, Color: Black"
+        },
+        {
+          "product_id": 6,
+          "name": "Men's Jeans",
+          "description": "Stylish jeans for men",
+          "details": "Size: 32, Color: Blue"
+        }
+      ],
+      "Women's Clothing": [
+        {
+          "product_id": 7,
+          "name": "Women's Dress",
+          "description": "Elegant dress for women",
+          "details": "Size: Medium, Color: Red"
+        },
+        {
+          "product_id": 8,
+          "name": "Women's Shoes",
+          "description": "Comfortable shoes for women",
+          "details": "Size: 7, Color: White"
+        }
+      ]
+    }
+  }
+}
+
