@@ -10,7 +10,7 @@ class ProductManager:
     def search_products(self, query):
         results = []
         for path, product in self.products:
-            if any(query.lower() in part.lower() for part in path) or query.lower() in product['name'].lower():
+            if any(query.lower() in part.lower() for part in path) or query.lower() in product['name'].lower() or query.lower() in product.get('description', '').lower():
                 results.append((path, product))
         return results
 
@@ -39,17 +39,15 @@ if __name__ == "__main__":
     for path, result in search_results:
         print("Product:", result)
 
-
     # Searching for sub category
     search_results = manager.search_products("Laptops")
     print("Search Results:")
     for path, result in search_results:
         print("Product:", result)
 
-
-    # Searching for particular product
+    # Searching for particular product using name and description
     search_results = manager.search_products("MacBook Pro")
     print("Search Results:")
     for path, result in search_results:
         print("Category:", path)
-        print("Product:", result)    
+        print("Product:", result)
